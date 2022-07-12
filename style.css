@@ -1,7 +1,7 @@
 body {
     background: black;
     font-family: "Roboto", sans-serif;
-    font-weight: 700;
+    margin: 0;
 }
 
 a {
@@ -10,28 +10,57 @@ a {
 }
 
 img {
-    max-height: 250px;
+    max-height: 300px;
     width: auto;
 }
 
 header {
     background: #1f2937;
     color: white;
-    padding: 5px 200px 250px;
+    padding: 10px 550px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color:#F9FAF8;
+}
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}
+
+p {
+
 }
 
 nav {
     font-size: 18px;
     color: #E5E7EB;
     display: flex;
+    margin-bottom: 50px;
+}
+
+button {
+    background: #3882F6;;
+    color: inherit;
+    font: inherit;
+    border: none;
+    border-radius: 4px;
 }
 
 .logo {
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: 900;
 }
 
 .navlinks {
+    color: #E5E7EB;
+    font-size: 18px;
     margin-left: auto;
     display: flex;
     gap: 40px;
@@ -40,11 +69,20 @@ nav {
 
 .herocard {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+}
+
+.wrapper1 {
+    padding-right: 540px;
+}
+
+.wrapper2 {
+
 }
 
 .container1 {
-
+    background: white;
+    padding: 24px 550px;
 }
 
 .container2 {
