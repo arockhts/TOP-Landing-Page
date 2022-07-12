@@ -1,5 +1,46 @@
-.header {
+body {
+    background: black;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+}
 
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+img {
+    max-height: 250px;
+    width: auto;
+}
+
+header {
+    background: #1f2937;
+    color: white;
+    padding: 5px 200px 250px;
+}
+
+nav {
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.navlinks {
+    margin-left: auto;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.herocard {
+    display: flex;
+    flex-direction: column;
 }
 
 .container1 {
@@ -11,10 +52,6 @@
 }
 
 .container3 {
-
-}
-
-.container4 {
 
 }
 
