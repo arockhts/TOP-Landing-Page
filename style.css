@@ -1,5 +1,4 @@
 body {
-    background: black;
     font-family: "Roboto", sans-serif;
     margin: 0;
 }
@@ -17,7 +16,9 @@ img {
 header {
     background: #1f2937;
     color: white;
-    padding: 10px 550px;
+    padding: 15px 675px;
+    padding-bottom: 75px;
+
 }
 
 h1 {
@@ -29,12 +30,12 @@ h1 {
 h2 {
     text-align: center;
     font-size: 36px;
-    font-weight: 800;
+    font-weight: 700;
     color: #1f2937;
 }
 
-p {
-
+h3 {
+    margin: 0px;
 }
 
 nav {
@@ -50,6 +51,18 @@ button {
     font: inherit;
     border: none;
     border-radius: 4px;
+    padding: 10px 30px;
+}
+
+.bottom-button {
+    background: #3882F6;;
+    color: white;
+    font: inherit;
+    border: solid;
+    border-color: white;
+    border-radius: 4px;
+    border-width: 2px;
+    margin-left: 478px;
 }
 
 .logo {
@@ -70,10 +83,11 @@ button {
 .herocard {
     display: flex;
     justify-content: space-between;
+    padding-top: 75px;
 }
 
 .wrapper1 {
-    padding-right: 540px;
+    padding-right: 275px;
 }
 
 .wrapper2 {
@@ -82,17 +96,81 @@ button {
 
 .container1 {
     background: white;
-    padding: 24px 550px;
+    padding: 75px 800px;
+    margin-bottom: 30px;
 }
 
-.container2 {
-
+.cardcontainer {
+    display: flex;
+    align-items: center;
 }
 
-.container3 {
-
+.card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
-.footer {
-    
+.frame {
+    width: 150px;
+    height: 170px;
+    border: 3px solid #3882F6;
+    border-radius: 24px;
+    margin: auto;
+}
+
+.quote {
+    background: #E5E7EB;
+    padding: 75px 800px;
+    font-size: 32px;
+    color: #1f2937;
+    font-style: italic;
+    margin: none;
+}
+
+.call-to-action {
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    color: white;
+    background: #3882F6;
+    border-style: solid;
+    border-color: white;
+    border-left-width: 675px;
+    border-right-width: 675px;
+    border-top-width: 75px;
+    border-bottom-width: 75px;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    background: #1f2937;
+    font-size: 18px;
+    color: #E5E7EB;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.right-align {
+    text-align: right;
+    font-style: normal;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.no-margin {
+    margin: 0px;
+}
+
+.roundborder {
+    border-color:#3882F6;
+    border-style: solid;
+    border-radius: 4px;
 }
